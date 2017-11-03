@@ -1,0 +1,163 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+    
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    android:layout_weight="1"
+        >
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    android:layout_weight="1"
+        >
+        <LinearLayout 
+	        android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="vertical"
+	        android:layout_weight="1"
+	        android:layout_gravity="center"
+	        >
+	        <ImageButton 
+	            android:id="@+id/ImageButton_achievement"
+	        	android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:scaleType="fitCenter"
+	        	android:src="@drawable/achievement"
+	        	android:layout_gravity="center"
+	            />
+        	<TextView 
+        	    android:layout_width="wrap_content"
+	        	 android:layout_height="wrap_content"
+        	    android:text="成绩查询"
+        	    android:layout_gravity="center"
+        	    />
+        </LinearLayout>
+        
+        <LinearLayout 
+	        android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="vertical"
+	        android:layout_weight="1"
+	        android:layout_gravity="center"
+	        >
+	        <ImageButton 
+	             android:id="@+id/ImageButton_about"
+	        	  android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:scaleType="fitCenter"
+	        	 android:src="@drawable/about"
+	            />
+        	<TextView 
+        	    android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content"
+        	    android:text="关于"
+        	    
+        	    android:layout_gravity="center"
+        	    />
+        </LinearLayout>
+        
+    </LinearLayout>
+    
+     <LinearLayout 
+        android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    android:layout_weight="1"
+        >
+        <LinearLayout 
+	        android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="vertical"
+	        android:layout_weight="1"
+	        >
+	        <ImageButton 
+	            android:id="@+id/ImageButton_practise"
+	        	android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:scaleType="fitCenter"
+                android:layout_gravity="center"
+	        	android:src="@drawable/chapterpractise"
+	            />
+        	<TextView 
+        	    android:layout_width="wrap_content"
+	        	 android:layout_height="wrap_content"
+        	    android:text="章节练习"
+        	    android:layout_gravity="center"
+        	    />
+        </LinearLayout>
+        
+        <LinearLayout 
+	        android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="vertical"
+	        android:layout_weight="1"
+	        >
+	        <ImageButton 
+	              android:id="@+id/ImageButton_testsystem"
+	        	  android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:scaleType="fitCenter"
+                android:layout_gravity="center"
+	        	 android:src="@drawable/testsystem"
+	            />
+        	<TextView 
+        	    android:layout_width="wrap_content"
+	        	 android:layout_height="wrap_content"
+        	    android:text="模拟考试"
+        	    android:layout_gravity="center"
+        	    />
+        </LinearLayout>
+        
+    </LinearLayout>
+    
+
+     <LinearLayout 
+        android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    android:layout_weight="1"
+        >
+        <LinearLayout 
+	        android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="vertical"
+	        >
+	        <ImageButton 
+	            android:id="@+id/ImageButton_notebook"
+	        	android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:scaleType="fitCenter"
+                android:layout_gravity="center"
+	        	android:src="@drawable/notesbook"
+	            />
+        	<TextView 
+        	    android:layout_width="wrap_content"
+	        	 android:layout_height="wrap_content"
+        	    android:text="错题本"
+        	    android:layout_gravity="center"
+        	    />
+        </LinearLayout>
+        
+        
+        
+    </LinearLayout>
+
+	<LinearLayout 
+        android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    android:layout_weight="1"
+        >
+    </LinearLayout>
+</LinearLayout>

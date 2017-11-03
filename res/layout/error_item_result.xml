@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+	    
+	<TextView
+        android:id="@+id/tv_topic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Large Textasd;fjflkasjdlfjalsdjfklasjdkfjlasdjfklasdfklsdfjlasdjflasjdlfjlasdjflkajsdfjakl"
+       	android:textSize="15sp" />
+
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+	    <!--     
+	    <RadioGroup
+	        android:id="@+id/radioGroup_question"
+	        android:layout_width="wrap_content"
+	        android:layout_weight="1"
+	        android:layout_height="wrap_content" >
+	
+		        <RadioButton
+		            android:id="@+id/radio_optionA"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:ems="10"
+		            android:text="RadioButtonaslasjdljfasldjflasjdkfjlasdjflasdfjkdlkjasldjflkasdjflkasjdlfk" />
+		
+		        <RadioButton
+		            android:id="@+id/radio_optionB"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:ems="10"
+		            android:text="RadioButtonjlsadjflksadjflkasjdlfjasdjflasdjfklsjdlfjalksdjflkasdjlfk" />
+		
+		        <RadioButton
+		            android:id="@+id/radio_optionC"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:ems="10"
+		            android:text="RadioButtonasdfjlsadjlkasfjiejlaseliasefjilsa" />
+		        
+		         <RadioButton
+		            android:id="@+id/radio_optionD"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:ems="10"
+		            android:text="RadioButton" />
+		         
+		    </RadioGroup>
+			-->
+
+        <TextView
+            android:id="@+id/text_optionA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/shape_button"
+            android:ems="20"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/text_optionB"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_button"
+            android:ems="20"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/text_optionC"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="20"
+             android:background="@drawable/shape_button"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/text_optionD"
+            android:layout_marginTop="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+		    android:ems="20"
+		     android:background="@drawable/shape_button"
+            android:text="TextView" />
+    	
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:id="@+id/ll_answer_hint"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+         
+        <TextView
+	        android:id="@+id/textView2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:layout_weight="2"
+	        android:text="选择答案：" 
+	        />
+
+	    <TextView
+	        android:id="@+id/select_option"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:text=""  />
+        
+	    <TextView
+	        android:id="@+id/textView2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="正确答案："
+	        android:gravity="center"
+	        android:layout_weight="2"
+	        android:textColor="#FF0000" />
+
+	    <TextView
+	        android:id="@+id/correct_option"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="答案" 
+	        android:layout_weight="1"
+	        android:textColor="#FF0000" />
+    
+	</LinearLayout>
+	
+    <Button
+        android:id="@+id/btn_remove"
+        android:padding="5dp"
+        android:background="@drawable/shape_button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="移出错题本" />
+
+</LinearLayout>
